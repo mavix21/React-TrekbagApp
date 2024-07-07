@@ -1,8 +1,14 @@
-# React + Vite
+# Trekbag App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple app that allows you to keep track of your trekking gear.
+You can add, edit, and delete items from your gear list.
+You can also mark items as packed or unpacked, and sort them by packed status or by name.
 
-Currently, two official plugins are available:
+## Usage
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To use the app, simply clone the repository and run the following commands:
+
+```bash
+npm install
+npm start
+```

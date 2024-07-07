@@ -4,18 +4,17 @@ import { Header } from "./components/Header.jsx";
 import { ItemList } from "./components/ItemList.jsx";
 
 import { Sidebar } from "./components/Sidebar.jsx";
-import ItemsContextProvider from "./contexts/ItemsContextProvider.jsx";
 
 function App() {
   return (
     <>
       <BackgroundHeading />
       <main>
-        <ItemsContextProvider>
-          <Header />
-          <ItemList />
-          <Sidebar />
-        </ItemsContextProvider>
+        {/*<ItemsContextProvider>*/}
+        <Header />
+        <ItemList />
+        <Sidebar />
+        {/*</ItemsContextProvider>*/}
       </main>
       <Footer />
     </>
